@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapilash Pradhan | Data Analyst Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <header class="bg-slate-900 text-white py-20 px-6 text-center">
+        <h1 class="text-4xl md:text-6xl font-bold">KAPILASH PRADHAN</h1>
+        <p class="text-xl mt-4 text-blue-400">Data Analyst | Credit Risk Specialist</p>
+        <div class="mt-6 flex justify-center gap-4">
+            <a href="mailto:kapilash.pradhan.odi@gmail.com" class="bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-lg transition">Email Me</a>
+            <a href="https://linkedin.com/in/kapilash-pradhan" target="_blank" class="border border-white px-6 py-2 rounded-lg hover:bg-white hover:text-black transition">LinkedIn</a>
+        </div>
+    </header>
+
+    <section class="max-w-5xl mx-auto py-16 px-6">
+        <h2 class="text-3xl font-bold text-center mb-10">Technical Toolkit</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            <div class="p-6 bg-white shadow rounded-xl"><strong>SQL</strong><br><span class="text-sm text-gray-500">PostgreSQL / MySQL</span></div>
+            <div class="p-6 bg-white shadow rounded-xl"><strong>Power BI</strong><br><span class="text-sm text-gray-500">DAX / Modeling</span></div>
+            <div class="p-6 bg-white shadow rounded-xl"><strong>Python</strong><br><span class="text-sm text-gray-500">Pandas / NumPy</span></div>
+            <div class="p-6 bg-white shadow rounded-xl"><strong>Excel</strong><br><span class="text-sm text-gray-500">VBA / Macros</span></div>
+        </div>
+    </section>
+
+    <section class="bg-gray-100 py-16 px-6">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-10">Featured Projects</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Credit Portfolio Risk Dashboard</h3>
+                        [span_7](start_span)<p class="text-gray-600 mb-4">Interactive Power BI dashboard monitoring NPA, DPD buckets, and portfolio growth using SQL datasets.[span_7](end_span)</p>
+                        <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Power BI</span>
+                        <span class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">SQL</span>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Delinquency Trend Analysis</h3>
+                        [span_8](start_span)<p class="text-gray-600 mb-4">SQL-based analysis tracking default patterns and high-risk segment identification.[span_8](end_span)</p>
+                        <span class="inline-block bg-yellow-100 text-yellow-800 text-xs px-2 py-1 rounded">SQL</span>
+                        <span class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">Data Analytics</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-5xl mx-auto py-16 px-6">
+        <h2 class="text-3xl font-bold text-center mb-10">Experience</h2>
+        <div class="space-y-8">
+            <div class="border-l-4 border-blue-600 pl-6">
+                <h4 class="text-xl font-bold text-gray-900">Credit Analyst | Khatabook</h4>
+                [span_9](start_span)<p class="text-gray-500">07/2022 – 07/2025[span_9](end_span)</p>
+                [span_10](start_span)[span_11](start_span)<p class="mt-2 italic">Specialized in MSME risk assessment and delinquency trend monitoring using SQL/Python.[span_10](end_span)[span_11](end_span)</p>
+            </div>
+            <div class="border-l-4 border-gray-300 pl-6">
+                <h4 class="text-xl font-bold text-gray-900">Credit Analyst | OTO</h4>
+                [span_12](start_span)<p class="text-gray-500">11/2021 – 02/2024[span_12](end_span)</p>
+                [span_13](start_span)[span_14](start_span)<p class="mt-2 italic">Focused on two-wheeler loan appraisals and bureau data analysis.[span_13](end_span)[span_14](end_span)</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-10 text-gray-500 border-t">
+        &copy; 2026 Kapilash Pradhan | Built with Tailwind CSS
+    </footer>
+</body>
+</html>
